@@ -52,6 +52,14 @@ div.master {
 	text-align: center;
 }
 
+.aboutskillset + p a {
+	color: white !important;
+}
+
+.aboutskillset + p a:hover {
+	color: #EF5350 !important;
+}
+
 .socialicons,
 .resume {
 	padding-top: 20px;

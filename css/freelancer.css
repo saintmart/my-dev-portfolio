@@ -133,6 +133,27 @@ section.success {
       border-color: #18BC9C;
       background-color: #18BC9C; }
 
+@media (max-width: 550px) {
+  .modal-body > h2,
+  #portfolio h2 {
+    font-size: 2em !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .modal-body > h2,
+  #portfolio h2 {
+    font-size: 1.5em !important;
+  }
+}
+
+@media (max-width: 310px) {
+  .modal-body > h2,
+  #portfolio h2 {
+    font-size: 1em !important;
+  }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -451,6 +472,22 @@ footer {
 
 /*=======*/
 
+@media (max-width: 650px) {
+  .profilephoto {
+    height: 180px !important;
+    width: 180px !important;
+    border-radius: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .profilephoto {
+    height: 200px !important;
+    width: 200px !important;
+    border-radius: 200px;
+  }
+}
+
 .profilephoto {
   height: 250px;
   width: 250px;
@@ -468,5 +505,8 @@ footer {
 }
 
 .modal-content {
-  width: 50%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
 }
