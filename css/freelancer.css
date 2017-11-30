@@ -504,6 +504,17 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 330px) {
+  .modal-body .btn.btn-success {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+}
+
+.modal-body .btn.btn-success {
+  margin-right: 10px;
+}
+
 .modal-content {
   width: 70%;
   margin-left: auto;
