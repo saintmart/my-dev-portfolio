@@ -504,6 +504,10 @@ footer {
   text-align: center;
 }
 
+.aboutskillset ~ p {
+  text-align: justify;
+}
+
 @media (max-width: 330px) {
   .modal-body .btn.btn-success {
     margin-right: 0 !important;
